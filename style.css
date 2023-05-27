@@ -1,0 +1,46 @@
+*{
+    margin:0;
+}
+body {
+    background: #0F2027; /* fond pour les moteur de recherche */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027); /* Pour Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* Pour W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white; /* La couleur d'écriture du texte de base */
+    font-family: sans-serif; /* Change les caractères */
+
+}
+
+h1{
+    text-align: center;
+}
+
+.photo {
+    height:10em;
+    width:10em;
+    font-size: 30px;
+    background-color: skyblue;
+    border-radius: 24% 76% 36% 64% / 63% 20% 80% 37%;
+    padding:0.2em;
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5)
+}
+
+.conteneur {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right:0px;
+
+}
+
+.tbox {
+    background-color: black;
+    height: 400px;
+    width: 650px;
+    border: solid 2px #000;
+    margin-right: 20px;
+}
+.box1 {
+    margin-right: 20px;
+}
+.box2 {
+    
+}
