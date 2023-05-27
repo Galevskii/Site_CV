@@ -14,6 +14,13 @@ h1{
     text-align: center;
 }
 
+.petitTitre {
+    text-align: center;
+    font-size: 1.7em;
+    text-decoration: underline;
+
+}
+
 .photo {
     height:10em;
     width:10em;
@@ -25,22 +32,26 @@ h1{
 }
 
 .conteneur {
-    display: flex;
-    flex-wrap: wrap;
-    margin-right:0px;
-
+    display: grid;
+    grid-template-columns: ;
+    grid-gap: 10px;
 }
 
-.tbox {
+
+.tbox { /* Gère les différentes box*/
     background-color: black;
-    height: 400px;
-    width: 650px;
     border: solid 2px #000;
-    margin-right: 20px;
 }
-.box1 {
-    margin-right: 20px;
-}
-.box2 {
+
+.boxComp {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
     
+}
+.boxComptInfo{
+
+}
+.boxComptDivers{
+
 }
