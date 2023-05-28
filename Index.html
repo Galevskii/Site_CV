@@ -3,35 +3,40 @@
 <head>
     <meta charset="utf-8">
     <link href="style.css" rel="stylesheet">
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/36/36049.png" />
     <title>CV Le Gouallec alternance</title> <!-- Titre du site -->
-    <h1>CV recherche Alternance CESI de Brest</h1> <!-- Titre de la page -->
-    <div class="tbox image boxImage">
-        <!-- Box de la photo -->
-        <img class="photo" src="https://media.licdn.com/dms/image/D4E03AQHoxSTyo-9-XA/profile-displayphoto-shrink_800_800/0/1679514432788?e=1690416000&v=beta&t=BmVuVSIbWF4Liu3emI-kKPRgkHJdewexhsyou7BUoEQ" alt="Photo me représentant" />
-        <p>Gallen Le Gouallec</p>
-    </div>
 </head>
 
 
     <body>
+        <header>
+            <h1><a><img class="photo" src="https://urlz.fr/m2Pn" alt="Photo me représentant" /></a><a class="texteH1">CV recherche Alternance CESI de Brest</a></h1> <!-- Titre de la page -->
+        </header>
+
+
+
+
+
+
         <main>
             <div class="conteneur">
 
 
                 <div class="tbox boxRech">
                     <!-- C'est quoi que je recherche ? -->
-                    <p class="petitTitre">Pourquoi avez-vous reçu ce site ?</p>
+                    <p class="petitTitre">Pourquoi avez-vous reçu ce site ?</p><br />
                     <p>
-                        Si vous avez reçu ce site c'est que vous êtes une entreprise et que j'estime pouvoir vous accompagner dans vos différents projets, je suis actuellement en recherche d'alternance, étant admissible au CESI de Brest, je recherche activement une entreprise pouvant collaborer durant ma formation de développeur informatique (lien de la formation).<br />
+                        Si vous avez reçu ce site c'est que vous êtes une entreprise et que j'estime pouvoir vous accompagner dans vos différents projets, je suis actuellement en recherche d'alternance, étant admissible au CESI de Brest, je recherche activement une entreprise pouvant collaborer durant ma formation de développeur informatique<br />
+                        (lien de la formation).<br />
                         Je recherche une alternance dans la région Bordelaise ou dans les environs de Brest.<br />
                         J'ai codé de A à Z ce site en utilisant GitHub (lien du GitHub), je pense que ce site peut vous montrer que je sais déjà coder et que je ne pars pas de 0.
                     </p>
                 </div>
 
-            
+
                 <div class="tbox boxDesc">
                     <!-- Ma description -->
-                    <p class="petitTitre">Qui suis-je ?</p>
+                    <p class="petitTitre">Qui suis-je ?</p><br />
                     <p>
                         Tout d'abord bienvenue sur mon site, je me présente : <br />
                         Je m'appel Le Gouallec Gallen jeune homme de 21 ans.<br />
@@ -39,7 +44,7 @@
                         Etant une personne curieuse de nature, je me suis amusé à découvrir mon ordinateur, je me suis tenter à l'expérience de faire des serveurs pour différents jeux (en ligne et local), j'ai passé énormément de temps à bidouiller Minecraft avec de la résolution de crash ou de la résolution de bugs, je me suis aussi tenter à l'expérience de modifier des plug-ins ou même de produire un plug-ins et un mod pour ce même jeu en utilisant différents API (Forge et Bukkit).<br />
                         Lors de la création des différents projets de serveurs minecraft, j'ai eu affaires à différents logiciels, comme WampServer, hamachi ou FileZilla.
                         Mais durant mon adolescence, j'ai eu différents projets autre que des serveurs ou Minecraft :
-                        <ul>
+                        <ul class="ulTexte">
                             <li>Création d'un robot Discord avec JavaScript</li>
                             <li>Création de différents site WEB</li>
                             <li>De l'automatisation en LUA sur le mod ComputerCraft pour Minecraft</li>
@@ -55,15 +60,15 @@
 
                 <div>
                     <!-- Box de compétence -->
-                    <p class="petitTitre boxCompT">Mes compétences</p>
-                    <div class="tbox boxComp">
+                    
+                    <div class="boxConteneur">
+                        <p class="petitTitre box CT">Mes compétences</p>
 
 
 
-
-                        <div class="boxCompInfo">
-                            <p class="boxCompST">Compétences informatique</p>
-                            <ul>
+                        <div class="CompInfo">
+                            <p class="box CST1">Compétences informatique</p>
+                            <ul class="box CI">
                                 <li>HTML</li>
                                 <li>CSS</li>
                                 <li>LUA</li>
@@ -74,13 +79,12 @@
                                 <li>Arduino</li>
                             </ul>
                         </div>
+                        
 
 
-
-
-                        <div class="boxCompDivers">
-                            <p class="boxCompST">Compétences diverses</p>
-                            <ul>
+                        <div class="CompDivers">
+                            <p class="box CST2"> Compétences diverses</p>
+                            <ul class="box CD">
                                 <li>Electricité industriel</li>
                                 <li>Automatisme (Automate Schneider, Siemens, Unitronics)</li>
                                 <li>Electricité tertiaire</li>
@@ -99,15 +103,15 @@
 
 
 
-
+                
 
                 <div class="tbox boxPerso">
                     <!-- Box pour me décrire -->
-                    <div>
-                        <p class="petitTitre">Moi personnellement</p>
+                    <p class="petitTitre boxPTitre">Mes compétences personnel</p>
+                    <div class="boxP1">
                         <!-- Mes points forts -->
                         <p> Points forts</p>
-                        <ul>
+                        <ul class="ulCentre">
                             <li>A l'écoute</li>
                             <li>Motivé</li>
                             <li>Rapidité d'apprentissage</li>
@@ -119,10 +123,10 @@
                         <br />
                     </div>
 
-                    <div>
+                    <div class="boxP2">
                         <!-- Mes activités -->
                         <p>Mes différentes activités extra-professionnel</p>
-                        <ul>
+                        <ul class="ulCentre">
                             <li>Natation</li>
                             <li>Cyclisme</li>
                             <li>Musculation</li>
@@ -143,11 +147,11 @@
     <footer>
         <div>
             <p>Mes différents réseaux et moyens de communication</p>
-            <ul>
+            <ul class="ulTexte">
                 <li>LinkedIn</li>
                 <li>Mail</li>
                 <li>GitHub</li>
-                <li>Téléphoe</li>
+                <li>Téléphone</li>
             </ul>
         </div>
     </footer>
