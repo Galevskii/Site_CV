@@ -1,13 +1,27 @@
-*{
-    margin:0;
-    text-align:center;
+* {
+    margin: 0px;
+    text-align: center;
+    word-wrap: break-word;
 }
-header{
+.important{
+    color: red;
+}
+.link{
+    color: dodgerblue;
+}
+.soul {
+    text-decoration: underline;
+}
+header {
     background-color:;
-    height:400px;
+    height: 400px;
+    border-radius: 10px;
+    border: 3px solid violet;
 }
 footer {
-    background-color: ;
+    background-color:;
+    border-radius: 10px;
+    border: 3px solid blue;
 }
 h1 {
     text-align: center;
@@ -20,11 +34,11 @@ h1 {
 }
 
 body {
-    background: #000428; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #004e92, #000428); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    color: white; /* La couleur d'écriture du texte de base */
-    font-family: sans-serif; /* Change les caractères */
+    background: #000428;
+    background: -webkit-linear-gradient(to left, #004e92, #000428); 
+    background: linear-gradient(to left, #004e92, #000428); 
+    color: white; 
+    font-family: sans-serif; 
 }
 
 
@@ -48,41 +62,37 @@ body {
 
 .conteneur {
     display: grid;
-    grid-template-columns: 1fr ;
+    grid-template-columns: 1fr;
     grid-gap: 10px;
+    text-align: center;
+    text-overflow: revert;
+    border-radius: 10px;
+    border: 3px solid white;
+    max-width: 900px;
+    margin: auto;
 }
-
-
-.tbox { /* Outil de test pour voir mes box*/
-    border: solid 2px #000;
-}
-
-
-ul {
-    list-style-type: none;
-    position: relative;
-}
-
-
 
 .boxConteneur {
     text-align: center;
     display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-columns: 10% 30% 20% 30% 10%;
     grid-template-rows: 75px auto 20px 75px auto;
-}
-.box {
-    background-color: #fff;
     border-radius: 10px;
-    border: 3px solid black;
-    display: grid;
-    align-items: center;
-    height:200px;
-    color:black;
+    border: 3px solid red;
 }
-.boite {
+.boxRech {
+    border-radius: 10px;
+    border: 3px solid pink;
+}
+.boxDesc {
+    border-radius: 10px;
+    border: 3px solid grey;
+}
+
+.box {
     border-radius: 10px;
     border: 3px solid white;
+    
     
 }
 .CT {
@@ -108,4 +118,20 @@ ul {
 .DAEP {
     grid-column: 4/4;
     grid-row: 5/5;
+}
+.boxPQM {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    grid-template-rows: auto auto;
+    border-radius: 10px;
+    border: 3px solid orange;
+}
+.TitrePQM {
+    grid-column: 2/2;
+    grid-row: 1/1;
+}
+.TxtPQM {
+    grid-column: 2/2;
+    grid-row: 2/3;
 }
