@@ -4,7 +4,6 @@
     word-wrap: break-word;
     box-sizing:border-box;
 }
-
 .important{
     color: red;
 }
@@ -19,16 +18,10 @@
     margin: 0px 0px 0px 10px;
 }
 header {
-    background-color:;
     height: auto;
-    border-radius: 10px;
-    border: 3px solid violet;
     margin-bottom:20px;
 }
 footer {
-    background-color:;
-    border-radius: 10px;
-    border: 3px solid blue;
     margin-top: 20px;
 }
 h1 {
@@ -59,12 +52,9 @@ body {
     color: white;
     font-family: sans-serif;
 }
-
-
 h2{
     text-decoration: underline;
 }
-
 .photo {
     height: 300px;
     width: 300px;
@@ -95,23 +85,16 @@ h2{
     display: grid;
     grid-template-columns: 10% 30% 20% 30% 10%;
     grid-template-rows: 75px auto 20px 75px auto;
-    border-radius: 10px;
-    border: 3px solid red;
+    border-bottom: 3px dotted white;
+    padding-bottom:20px;
 }
 .boxRech {
-    border-radius: 10px;
-    border: 3px solid pink;
+    border-bottom: 3px dotted white;
+    padding-bottom: 20px;
 }
-.boxDesc {
-    border-radius: 10px;
-    border: 3px solid grey;
-}
-
 .box {
     border-radius: 10px;
     border: 3px solid white;
-    
-    
 }
 .CT {
     grid-column: 1/6;
@@ -138,6 +121,42 @@ h2{
     grid-row: 5/5;
 }
 .boxPQM {
-    border-radius: 10px;
-    border: 3px solid orange;
+    padding-bottom:20px;
+}
+.boxPhotoInfoP {
+    border-bottom: 3px dotted white;
+    padding-bottom: 20px;
+}
+.boxDesc {
+    border-bottom: 3px dotted white;
+    padding-bottom: 20px;
+}
+.boxExperience {
+    border-bottom: 3px dotted white;
+    padding-bottom: 20px;
+}
+.exp-dipPhotoDim{
+    width:180px;
+    height:100px;
+}
+.exp-dip {
+    display: flex;
+    flex-flow: row wrap;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-left:5px;
+    margin-right:5px;
+    margin-top:20px;
+}
+.exp-dipInfo {
+    display: flex;
+    flex-flow: column wrap;
+    margin:auto;
+    margin-bottom:25px;
+}
+.diplome {
+    border-bottom: 3px dotted white;
+    padding-bottom: 20px;
+    margin-bottom:10px;
 }
